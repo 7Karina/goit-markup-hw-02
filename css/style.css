@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto",sans-serif;
     color:#434455;
     background-color: #FFFFFF;
 }
@@ -20,7 +20,7 @@ ul{
 
 /**---------------HEADER--------------*/
 .header-logo{
-    font-family:"Raleway" sans-serif;
+    font-family:"Raleway",sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -30,7 +30,7 @@ ul{
 }
 
 .header-logo-raleway{
-    font-family: "Raleway" sans-serif ;
+    font-family: "Raleway",sans-serif ;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -55,8 +55,12 @@ list-style: none;
     color: #404bbf;
 }
 
+.header-address{
+    font-style: normal;
+}
+
 .header-contacts .list{
-    font-family: 'Roboto' sans-serif;
+    font-family: "Roboto",sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -89,8 +93,6 @@ list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--main-text-color);
     background-color: #4D5AE5;
@@ -114,6 +116,7 @@ list-style: none;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -128,7 +131,12 @@ list-style: none;
 .products {}
 
 .products-title {
-
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
 }
 
 .products-list {}
@@ -142,6 +150,12 @@ list-style: none;
 }
 
 .team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 
 }
 
@@ -150,10 +164,18 @@ list-style: none;
 }
 
 .team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .team-item-text {
-
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /**-----------------FOOTER----------------*/
 .footer {
@@ -161,7 +183,7 @@ list-style: none;
 }
 
 .footer-logo{
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway",sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -172,7 +194,7 @@ list-style: none;
 }
 
 .footer-logo-raleway .link{
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway",sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -194,12 +216,16 @@ body{
     color:#434455;
 }
 
+/**----------------HEADER------------------*/
+
 .header {}
 
-.header-navigation {}
+.header-navigation .list{
+
+}
 
 .header-logo {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -228,7 +254,9 @@ body{
     color: #404bbf;
 }
 
-.header-address {}
+.header-address {
+    font-style: normal;
+}
 
 .header-contacts .list {
     font-style: normal;
@@ -243,30 +271,38 @@ body{
     list-style: none;
     color:#434455;
 }
+
+.header-contacts-link:hover,
+.header-contacts-link:active{
+    color: #404bbf;
+}
 /**------------------BUTTON--------------*/
-.menu-button {
-    font-family: "Roboto" sans-serif;
+.menu-list {}
+
+.list {}
+
+.menu-button-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color:#F4F4FD;
-    cursor: pointer;
 }
 
-.header-contacts-link:hover,
-.header-contacts-link:focus{
+.menu-button-link:hover,
+.menu-button-link:focus{
     color: #FFFFFF;
     background-color: #404BBF;
 }
-
 /**----------------MAIN-PORTFOLIO-----------------*/
 .portfolio-list .list {
     text-decoration: none;
 }
 
-.portfolio-item .link {}
+.portfolio-item .link {
+    text-decoration: none;
+}
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -284,15 +320,25 @@ body{
 }
 
 /**-----------------FOOTER--------------*/
+.footer-logo .link{
+    font-family: "Raleway" sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+}
+
 
 .footer-logo-raleway{
-font-family: "Raleway" sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+    font-family: "Raleway" sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
 
 .footer-item-text{
