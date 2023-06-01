@@ -50,7 +50,10 @@ list-style: none;
     color:  #2E2F42;
 }
 
-.header-menu-link:hover,
+.header-menu-link:hover{
+    color: #404bbf;
+}
+
 .header-menu-link:focus{
     color: #404bbf;
 }
@@ -156,6 +159,7 @@ list-style: none;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    background-color: #FFFFFF;
 
 }
 
@@ -193,7 +197,7 @@ list-style: none;
     color:#4D5AE5;
 }
 
-.footer-logo-raleway .link{
+.footer-logo-raleway {
     font-family: "Raleway",sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -201,7 +205,7 @@ list-style: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #f4f4fd;
 }
 
 .footer-item-text {
@@ -220,7 +224,7 @@ body{
 
 .header {}
 
-.header-navigation .list{
+.header-navigation-list .list{
 
 }
 
@@ -276,8 +280,10 @@ body{
 .header-contacts-link:active{
     color: #404bbf;
 }
-/**------------------BUTTON--------------*/
-.menu-list {}
+/**------------------MAIN-PORTFOLIO--------------*/
+.menu-list .list {
+    list-style: none;
+}
 
 .list {}
 
@@ -295,7 +301,7 @@ body{
     color: #FFFFFF;
     background-color: #404BBF;
 }
-/**----------------MAIN-PORTFOLIO-----------------*/
+
 .portfolio-list .list {
     text-decoration: none;
 }
@@ -320,7 +326,7 @@ body{
 }
 
 /**-----------------FOOTER--------------*/
-.footer-logo .link{
+.footer-logo {
     font-family: "Raleway" sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -331,7 +337,7 @@ body{
 }
 
 
-.footer-logo-raleway{
+.footer-logo-raleway {
     font-family: "Raleway" sans-serif;
     font-weight: 800;
     font-size: 18px;
