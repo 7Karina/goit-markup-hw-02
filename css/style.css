@@ -148,8 +148,8 @@ list-style: none;
 
 /**-------------TEAM-----------*/
 
-.team { 
-    background-color: #F4F4FD;
+.team-item { 
+background-color: #FFFFFF;
 }
 
 .team-title {
@@ -278,7 +278,7 @@ body{
 }
 
 .header-contacts-link:hover,
-.header-contacts-link:active{
+.header-contacts-link:focus{
     color: #404bbf;
 }
 /**------------------MAIN-PORTFOLIO--------------*/
