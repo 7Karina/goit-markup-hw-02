@@ -288,12 +288,14 @@ body{
 .list {}
 
 .menu-button-link {
+    font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color:#F4F4FD;
+    cursor: pointer;
 }
 
 .menu-button-link:hover,
@@ -302,11 +304,11 @@ body{
     background-color: #404BBF;
 }
 
-.portfolio-list .list {
+.portfolio-list  {
     text-decoration: none;
 }
 
-.portfolio-item .link {
+.portfolio-item  {
     text-decoration: none;
 }
 
@@ -316,6 +318,7 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-decoration: none;
 }
 
 .portfolio-text {
